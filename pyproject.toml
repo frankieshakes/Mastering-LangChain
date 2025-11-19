@@ -1,0 +1,13 @@
+[project]
+name = "mastering-langchain"
+version = "0.1.0"
+description = "A basic example of LangChain usage"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.0",
+    "langchain>=1.0.8",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=3.1.0",
+    "streamlit>=1.51.0",
+]
